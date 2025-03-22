@@ -10,7 +10,7 @@ export default function Transcribing(props) {
           <span className="text-blue-400 bold">Transcribing</span>
         </h1>
         <p>
-          {!downloading ? "warming up cylinders" : "core cylinders engaged"}
+          {!downloading ? "loading" : "core cylinders engaged"}
         </p>
       </div>
       <div className="flex flex-col gap-2 sm:gap-3 max-w-[400px] mx-auto w-full">
